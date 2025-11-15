@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConvertLab | High-Converting Landing Pages</title>
+    <meta name="description" content="We build high-converting landing pages with focus on speed, SEO, and mobile optimization to grow your business.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./tailwind-config.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-secondary-50 font-sans">
+    <!-- Header/Navigation -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="#" class="text-2xl font-bold gradient-text flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-2 text-primary-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+                    </svg>
+                    ConvertLab
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#features" class="text-secondary-600 hover:text-primary-600 transition font-medium">Features</a>
+                <a href="#benefits" class="text-secondary-600 hover:text-primary-600 transition font-medium">Benefits</a>
+                <a href="#results" class="text-secondary-600 hover:text-primary-600 transition font-medium">Results</a>
+                <a href="#pricing" class="text-secondary-600 hover:text-primary-600 transition font-medium">Pricing</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-secondary-600 hover:text-primary-600 hidden md:block font-medium">Login</a>
+                <a href="#contact" class="btn-primary text-white px-6 py-3 rounded-xl font-semibold">Get Started Free</a>
+                <button class="md:hidden text-secondary-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white pt-16 pb-32 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-white rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-primary-300 rounded-full filter blur-3xl"></div>
+        </div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <div class="inline-flex items-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm mb-6">
+                        <span class="w-2 h-2 bg-green-400 rounded-full mr-2 pulse"></span>
+                        <span class="text-sm font-medium">No credit card required</span>
+                    </div>
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Landing Pages That <span class="text-accent-300">Convert Visitors</span> to Clients</h1>
+                    <p class="text-xl mb-8 opacity-90 max-w-lg">We build high-performance landing pages focused on speed, SEO, and mobile optimization to grow your business.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#contact" class="bg-white text-primary-600 px-8 py-4 rounded-xl font-bold text-center hover:bg-secondary-100 transition shadow-lg">Get Your Free Quote</a>
+                        <a href="#features" class="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-center hover:bg-white hover:text-primary-600 transition flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                            </svg>
+                            Watch Demo
+                        </a>
+                    </div>
+                    <div class="flex items-center mt-8 space-x-6">
+                        <div class="flex -space-x-2">
+                            <div class="w-8 h-8 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full border-2 border-white"></div>
+                            <div class="w-8 h-8 bg-gradient-to-r from-primary-500 to-primary-700 rounded-full border-2 border-white"></div>
+                            <div class="w-8 h-8 bg-gradient-to-r from-accent-500 to-accent-700 rounded-full border-2 border-white"></div>
+                            <div class="w-8 h-8 bg-gradient-to-r from-green-500 to-teal-500 rounded-full border-2 border-white"></div>
+                        </div>
+                        <p class="text-white/80 text-sm">Join <span class="font-bold">2,500+</span> businesses growing with ConvertLab</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <div class="bg-white rounded-2xl shadow-2xl p-6 max-w-md floating relative z-10">
+                            <div class="flex justify-between items-center mb-6">
+                                <h3 class="font-bold text-secondary-800">Conversion Dashboard</h3>
+                                <div class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full">Live</div>
+                            </div>
+                            <div class="mb-6">
+                                <canvas id="conversionChart" height="200"></canvas>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-primary-50 p-3 rounded-lg">
+                                    <p class="text-xs text-secondary-600">Conversion Rate</p>
+                                    <p class="text-xl font-bold text-primary-700">24.7%</p>
+                                </div>
+                                <div class="bg-green-50 p-3 rounded-lg">
+                                    <p class="text-xs text-secondary-600">Page Load Time</p>
+                                    <p class="text-xl font-bold text-green-700">1.2s</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-6 -right-6 w-full h-full bg-primary-200 rounded-2xl transform rotate-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-white -mt-20 relative z-20">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
+                    <div class="text-4xl font-bold text-primary-600 mb-2" data-target="42">0</div>
+                    <div class="text-secondary-600 font-medium">Avg Conversion Rate</div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
+                    <div class="text-4xl font-bold text-primary-600 mb-2" data-target="98">0</div>
+                    <div class="text-secondary-600 font-medium">Mobile Optimization</div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
+                    <div class="text-4xl font-bold text-primary-600 mb-2" data-target="2.1">0</div>
+                    <div class="text-secondary-600 font-medium">Second Load Time</div>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
+                    <div class="text-4xl font-bold text-primary-600 mb-2" data-target="500">0</div>
+                    <div class="text-secondary-600 font-medium">Happy Clients</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-secondary-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-secondary-800 mb-4">Why Our Landing Pages <span class="gradient-text">Convert Better</span></h2>
+                <p class="text-xl text-secondary-600 max-w-2xl mx-auto">We focus on the key elements that drive conversions and business growth with cutting-edge design and technology.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary-500 to-primary-700 rounded-2xl flex items-center justify-center mb-6 text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-secondary-800 mb-4">Lightning Fast Speed</h3>
+                    <p class="text-secondary-600 mb-6">Our pages load in under 2 seconds, reducing bounce rates and improving user experience with optimized assets and code.</p>
+                    <div class="w-full bg-secondary-200 rounded-full h-2">
+                        <div class="bg-gradient-to-r from-primary-500 to-primary-700 h-2 rounded-full w-3/4"></div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary-500 to-primary-700 rounded-2xl flex items-center justify-center mb-6 text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-secondary-800 mb-4">SEO Optimized</h3>
+                    <p class="text-secondary-600 mb-6">We build with SEO best practices to ensure your pages rank high in search results and drive organic traffic.</p>
+                    <div class="w-full bg-secondary-200 rounded-full h-2">
+                        <div class="bg-gradient-to-r from-primary-500 to-primary-700 h-2 rounded-full w-4/5"></div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary-500 to-primary-700 rounded-2xl flex items-center justify-center mb-6 text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-secondary-800 mb-4">Mobile-First Design</h3>
+                    <p class="text-secondary-600 mb-6">Every page is designed mobile-first to capture the growing mobile audience with seamless responsive experiences.</p>
+                    <div class="w-full bg-secondary-200 rounded-full h-2">
+                        <div class="bg-gradient-to-r from-primary-500 to-primary-700 h-2 rounded-full w-5/6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-4xl md:text-5xl font-bold text-secondary-800 mb-6">Real Results That <span class="gradient-text">Drive Growth</span></h2>
+                    <p class="text-xl text-secondary-600 mb-8">Our data-driven approach delivers measurable improvements in key business metrics.</p>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-6 h-6 bg-primary-100 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary-600" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold text-secondary-800">Higher Conversion Rates</h3>
+                                <p class="text-secondary-600">Our optimized designs convert visitors into customers at industry-leading rates.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-6 h-6 bg-primary-100 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary-600" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold text-secondary-800">Better Search Rankings</h3>
+                                <p class="text-secondary-600">SEO-optimized structure helps your pages rank higher in search results.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="w-6 h-6 bg-primary-100 rounded-full flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary-600" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold text-secondary-800">Faster Loading Times</h3>
+                                <p class="text-secondary-600">Optimized code and assets ensure your pages load quickly on all devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <div class="bg-white rounded-2xl shadow-xl p-6">
+                        <div class="flex justify-between items-center mb-6">
+                            <h3 class="font-bold text-secondary-800 text-lg">Performance Metrics</h3>
+                            <div class="text-xs bg-primary-100 text-primary-800 px-2 py-1 rounded-full">Last 30 days</div>
+                        </div>
+                        <div class="mb-8">
+                            <canvas id="performanceChart" height="250"></canvas>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-gradient-to-r from-primary-500 to-primary-700 text-white p-4 rounded-xl">
+                                <p class="text-sm opacity-90">Bounce Rate</p>
+                                <p class="text-2xl font-bold">-32%</p>
+                            </div>
+                            <div class="bg-gradient-to-r from-primary-500 to-primary-700 text-white p-4 rounded-xl">
+                                <p class="text-sm opacity-90">Page Views</p>
+                                <p class="text-2xl font-bold">+47%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gradient-to-br from-primary-50 to-primary-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-secondary-800 mb-4">What Our <span class="gradient-text">Clients Say</span></h2>
+                <p class="text-xl text-secondary-600 max-w-2xl mx-auto">Don't just take our word for it - hear from businesses that have seen real results.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                    <div class="flex items-center mb-6">
+                        <div class="w-14 h-14 bg-gradient-to-r from-primary-500 to-primary-700 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">JD</div>
+                        <div>
+                            <h4 class="font-bold text-secondary-800">John Doe</h4>
+                            <p class="text-secondary-600 text-sm">CEO, TechStart Inc</p>
+                        </div>
+                    </div>
+                    <div class="flex text-accent-400 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-secondary-600 italic">"Our conversion rate increased by 35% after switching to ConvertLab. The mobile optimization alone was worth the investment."</p>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                    <div class="flex items-center mb-6">
+                        <div class="w-14 h-14 bg-gradient-to-r from-primary-500 to-primary-700 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">SJ</div>
+                        <div>
+                            <h4 class="font-bold text-secondary-800">Sarah Johnson</h4>
+                            <p class="text-secondary-600 text-sm">Marketing Director, GrowthCo</p>
+                        </div>
+                    </div>
+                    <div class="flex text-accent-400 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-secondary-600 italic">"The SEO improvements were noticeable within weeks. We're now ranking for keywords we never thought possible."</p>
+                </div>
+                <div class="bg-white rounded-2xl shadow-lg p-8 card-hover">
+                    <div class="flex items-center mb-6">
+                        <div class="w-14 h-14 bg-gradient-to-r from-primary-500 to-primary-700 rounded-full flex items-center justify-center text-white font-bold text-lg mr-4">MR</div>
+                        <div>
+                            <h4 class="font-bold text-secondary-800">Michael Roberts</h4>
+                            <p class="text-secondary-600 text-sm">Founder, EcomStore</p>
+                        </div>
+                    </div>
+                    <div class="flex text-accent-400 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-secondary-600 italic">"The speed optimization made a huge difference. Our bounce rate dropped by 22% after implementing their recommendations."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-20 gradient-bg text-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-10 right-20 w-64 h-64 bg-white rounded-full filter blur-3xl"></div>
+            <div class="absolute bottom-10 left-20 w-80 h-80 bg-primary-300 rounded-full filter blur-3xl"></div>
+        </div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Convert More Visitors?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Get your custom landing page designed and developed to drive results for your business.</p>
+            <div class="max-w-md mx-auto bg-white rounded-2xl shadow-2xl p-8">
+                <form id="contact-form" class="space-y-5">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full px-5 py-4 border border-secondary-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 text-secondary-800">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full px-5 py-4 border border-secondary-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 text-secondary-800">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Company Name" class="w-full px-5 py-4 border border-secondary-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500 text-secondary-800">
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full btn-primary text-white px-8 py-4 rounded-xl font-bold">Get Your Free Quote</button>
+                    </div>
+                    <p class="text-secondary-500 text-sm">No credit card required. Get started in minutes.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-primary-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+                        </svg>
+                        ConvertLab
+                    </h3>
+                    <p class="text-secondary-400">We build high-converting landing pages with focus on speed, SEO, and mobile optimization.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-secondary-400">
+                        <li><a href="#" class="hover:text-white transition">Landing Page Design</a></li>
+                        <li><a href="#" class="hover:text-white transition">Conversion Optimization</a></li>
+                        <li><a href="#" class="hover:text-white transition">SEO Services</a></li>
+                        <li><a href="#" class="hover:text-white transition">Speed Optimization</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-secondary-400">
+                        <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition">Case Studies</a></li>
+                        <li><a href="#" class="hover:text-white transition">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Connect</h4>
+                    <ul class="space-y-2 text-secondary-400">
+                        <li><a href="#" class="hover:text-white transition">Twitter</a></li>
+                        <li><a href="#" class="hover:text-white transition">LinkedIn</a></li>
+                        <li><a href="#" class="hover:text-white transition">Instagram</a></li>
+                        <li><a href="#" class="hover:text-white transition">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-secondary-700 mt-8 pt-8 text-center text-secondary-400">
+                <p>&copy; 2023 ConvertLab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890?text=Hi%20ConvertLab%2C%20I'm%20interested%20in%20your%20landing%20page%20services" class="whatsapp-float" target="_blank" aria-label="Chat with us on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893-.001-3.189-1.262-6.188-3.55-8.444z"/>
+        </svg>
+    </a>
+    <div class="whatsapp-tooltip">Chat with us on WhatsApp!</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
