@@ -9,7 +9,7 @@ export const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="gradient-bg text-white pt-16 pb-32 relative overflow-hidden">
+    <section className="gradient-bg text-white pt-24 pb-32 relative overflow-hidden" style={{ minHeight: '80vh' }}>
       <div className="absolute top-0 left-0 w-full h-full opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full filter blur-3xl"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary-300 rounded-full filter blur-3xl"></div>

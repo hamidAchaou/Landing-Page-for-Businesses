@@ -12,17 +12,31 @@
     "title": "Des Pages de Destination Qui",
     "highlight": "Convertissent les Visiteurs en Clients",
     "description": "Nous créons des pages de destination haute performance axées sur la vitesse, le SEO et l'optimisation mobile pour développer votre entreprise.",
-    "cta": {
-      "primary": "Obtenir un Devis Gratuit",
-      "secondary": "Voir la Démo"
+"cta": {
+    "badge": "Offre Limitée",
+    "title": "Prêt à Transformer Vos Taux de Conversion ?",
+    "description": "Construisons ensemble votre page de destination à conversion élevée. Commencez avec une consultation gratuite et un devis personnalisé.",
+    "benefits": {
+      "freeConsultation": "Consultation gratuite de 30 minutes",
+      "customQuote": "Devis personnalisé pour votre projet",
+      "noObligation": "Aucune obligation, pas de carte de crédit"
     },
-    "companies": "Rejoignez {{count}}+ entreprises qui grandissent avec ConvertLab",
-    "dashboard": {
-      "title": "Tableau de Conversion",
-      "live": "En Direct",
-      "conversionRate": "Taux de Conversion",
-      "pageLoadTime": "Temps de Chargement"
+    "trustedBy": "De confiance pour 2 500+ entreprises",
+    "form": {
+      "title": "Obtenez Votre Devis Gratuit",
+      "subtitle": "Remplissez le formulaire et nous vous répondrons dès que possible",
+      "name": "Votre Nom Complet",
+      "email": "Votre Email Professionnel",
+      "company": "Nom de l'Entreprise",
+      "button": "Obtenir Mon Devis Gratuit",
+      "note": "Aucune carte de crédit requise. Commencez en quelques minutes."
+    },
+    "success": {
+      "title": "Merci !",
+      "message": "Nous avons reçu votre demande et vous contacterons dans les 24 heures.",
+      "cta": "Envoyer un Autre Message"
     }
+  }
   },
   "features": {
     "title": "Pourquoi Nos Pages de Destination",

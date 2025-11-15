@@ -11,7 +11,6 @@ import { CTA } from './components/sections/CTA';
 import { Footer } from './components/layout/Footer';
 import { WhatsAppFloat } from './components/ui/WhatsAppFloat';
 import './utils/i18n';
-import './styles/globals.css';
 
 function App() {
   return (

@@ -76,15 +76,29 @@
       }
     }
   },
-  "cta": {
-    "title": "Ready to Convert More Visitors?",
-    "description": "Get your custom landing page designed and developed to drive results for your business.",
+"cta": {
+    "badge": "Limited Time Offer",
+    "title": "Ready to Transform Your Conversion Rates?",
+    "description": "Let's build your high-converting landing page together. Get started with a free consultation and custom quote.",
+    "benefits": {
+      "freeConsultation": "Free 30-minute consultation",
+      "customQuote": "Custom quote for your project",
+      "noObligation": "No obligation, no credit card"
+    },
+    "trustedBy": "Trusted by 2,500+ businesses",
     "form": {
-      "name": "Your Name",
-      "email": "Your Email",
+      "title": "Get Your Free Quote",
+      "subtitle": "Fill out the form and we'll get back to you ASAP",
+      "name": "Your Full Name",
+      "email": "Your Work Email",
       "company": "Company Name",
-      "button": "Get Your Free Quote",
+      "button": "Get My Free Quote",
       "note": "No credit card required. Get started in minutes."
+    },
+    "success": {
+      "title": "Thank You!",
+      "message": "We've received your request and will contact you within 24 hours.",
+      "cta": "Send Another Message"
     }
   },
   "performanceChart": {
