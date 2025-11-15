@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "features": "Features",
+    "benefits": "Benefits",
+    "results": "Results",
+    "pricing": "Pricing",
+    "login": "Login",
+    "getStarted": "Get Started Free"
+  },
+  "hero": {
+    "badge": "No credit card required",
+    "title": "Landing Pages That",
+    "highlight": "Convert Visitors to Clients",
+    "description": "We build high-performance landing pages focused on speed, SEO, and mobile optimization to grow your business.",
+    "cta": {
+      "primary": "Get Your Free Quote",
+      "secondary": "Watch Demo"
+    },
+    "companies": "Join {{count}}+ businesses growing with ConvertLab",
+    "dashboard": {
+      "title": "Conversion Dashboard",
+      "live": "Live",
+      "conversionRate": "Conversion Rate",
+      "pageLoadTime": "Page Load Time"
+    }
+  },
+  "features": {
+    "title": "Why Our Landing Pages",
+    "highlight": "Convert Better",
+    "description": "We focus on the key elements that drive conversions and business growth with cutting-edge design and technology.",
+    "speed": {
+      "title": "Lightning Fast Speed",
+      "description": "Our pages load in under 2 seconds, reducing bounce rates and improving user experience with optimized assets and code."
+    },
+    "seo": {
+      "title": "SEO Optimized",
+      "description": "We build with SEO best practices to ensure your pages rank high in search results and drive organic traffic."
+    },
+    "mobile": {
+      "title": "Mobile-First Design",
+      "description": "Every page is designed mobile-first to capture the growing mobile audience with seamless responsive experiences."
+    }
+  },
+  "stats": {
+    "conversionRate": "Avg Conversion Rate",
+    "mobileOptimization": "Mobile Optimization",
+    "loadTime": "Second Load Time",
+    "happyClients": "Happy Clients"
+  },
+  "results": {
+    "title": "Real Results That",
+    "highlight": "Drive Growth",
+    "description": "Our data-driven approach delivers measurable improvements in key business metrics.",
+    "benefits": [
+      "Higher Conversion Rates - Our optimized designs convert visitors into customers at industry-leading rates.",
+      "Better Search Rankings - SEO-optimized structure helps your pages rank higher in search results.",
+      "Faster Loading Times - Optimized code and assets ensure your pages load quickly on all devices."
+    ],
+    "chartTitle": "Performance Metrics",
+    "last30Days": "Last 30 days",
+    "bounceRate": "Bounce Rate",
+    "pageViews": "Page Views"
+  },
+  "testimonials": {
+    "title": "What Our",
+    "highlight": "Clients Say",
+    "description": "Don't just take our word for it - hear from businesses that have seen real results.",
+    "positions": {
+      "ceo": "CEO",
+      "marketing": "Marketing Director",
+      "founder": "Founder",
+      "content": {
+        "john": "Our conversion rate increased by 35% after switching to ConvertLab. The mobile optimization alone was worth the investment.",
+        "sarah": "The SEO improvements were noticeable within weeks. We're now ranking for keywords we never thought possible.",
+        "michael": "The speed optimization made a huge difference. Our bounce rate dropped by 22% after implementing their recommendations."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Convert More Visitors?",
+    "description": "Get your custom landing page designed and developed to drive results for your business.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "company": "Company Name",
+      "button": "Get Your Free Quote",
+      "note": "No credit card required. Get started in minutes."
+    }
+  },
+  "performanceChart": {
+    "loadTime": "Load Time",
+    "bounceRate": "Bounce Rate",
+    "conversions": "Conversions",
+    "pageViews": "Page Views",
+    "seoRank": "SEO Rank",
+    "before": "Before",
+    "after": "After"
+  },
+  "conversionChart": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "conversionRate": "Conversion Rate"
+  },
+  "footer": {
+    "description": "We build high-converting landing pages with focus on speed, SEO, and mobile optimization.",
+    "services": "Services",
+    "landingPageDesign": "Landing Page Design",
+    "conversionOptimization": "Conversion Optimization",
+    "seoServices": "SEO Services",
+    "speedOptimization": "Speed Optimization",
+    "company": "Company",
+    "aboutUs": "About Us",
+    "caseStudies": "Case Studies",
+    "blog": "Blog",
+    "contact": "Contact",
+    "connect": "Connect",
+    "rights": "All rights reserved."
+  }
+}

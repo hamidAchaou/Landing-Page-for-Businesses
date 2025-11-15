@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "benefits": "Avantages",
+    "results": "Résultats",
+    "pricing": "Tarifs",
+    "login": "Connexion",
+    "getStarted": "Commencer Gratuitement"
+  },
+  "hero": {
+    "badge": "Aucune carte de crédit requise",
+    "title": "Des Pages de Destination Qui",
+    "highlight": "Convertissent les Visiteurs en Clients",
+    "description": "Nous créons des pages de destination haute performance axées sur la vitesse, le SEO et l'optimisation mobile pour développer votre entreprise.",
+    "cta": {
+      "primary": "Obtenir un Devis Gratuit",
+      "secondary": "Voir la Démo"
+    },
+    "companies": "Rejoignez {{count}}+ entreprises qui grandissent avec ConvertLab",
+    "dashboard": {
+      "title": "Tableau de Conversion",
+      "live": "En Direct",
+      "conversionRate": "Taux de Conversion",
+      "pageLoadTime": "Temps de Chargement"
+    }
+  },
+  "features": {
+    "title": "Pourquoi Nos Pages de Destination",
+    "highlight": "Convertissent Mieux",
+    "description": "Nous nous concentrons sur les éléments clés qui stimulent les conversions et la croissance commerciale avec une conception et une technologie de pointe.",
+    "speed": {
+      "title": "Vitesse Éclair",
+      "description": "Nos pages se chargent en moins de 2 secondes, réduisant les taux de rebond et améliorant l'expérience utilisateur avec des ressources et un code optimisés."
+    },
+    "seo": {
+      "title": "Optimisé SEO",
+      "description": "Nous construisons avec les meilleures pratiques SEO pour garantir que vos pages se classent haut dans les résultats de recherche et génèrent du trafic organique."
+    },
+    "mobile": {
+      "title": "Design Mobile-First",
+      "description": "Chaque page est conçue mobile-first pour capturer le public mobile croissant avec des expériences responsives fluides."
+    }
+  },
+  "stats": {
+    "conversionRate": "Taux de Conversion Moyen",
+    "mobileOptimization": "Optimisation Mobile",
+    "loadTime": "Temps de Chargement",
+    "happyClients": "Clients Satisfaits"
+  },
+  "results": {
+    "title": "Résultats Réels Qui",
+    "highlight": "Stimulent la Croissance",
+    "description": "Notre approche basée sur les données offre des améliorations mesurables des indicateurs commerciaux clés.",
+    "benefits": [
+      "Taux de conversion plus élevés - Nos designs optimisés convertissent les visiteurs en clients à des taux leaders de l'industrie.",
+      "Meilleur classement dans les moteurs de recherche - La structure optimisée SEO aide vos pages à mieux se classer dans les résultats de recherche.",
+      "Temps de chargement plus rapides - Le code et les ressources optimisés garantissent que vos pages se chargent rapidement sur tous les appareils."
+    ],
+    "chartTitle": "Métriques de Performance",
+    "last30Days": "30 derniers jours",
+    "bounceRate": "Taux de Rebond",
+    "pageViews": "Pages Vues"
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos",
+    "highlight": "Clients",
+    "description": "Ne nous croyez pas sur parole - écoutez les entreprises qui ont obtenu des résultats concrets.",
+    "positions": {
+      "ceo": "PDG",
+      "marketing": "Directeur Marketing",
+      "founder": "Fondateur"
+    },
+    "content": {
+      "john": "Notre taux de conversion a augmenté de 35% après être passé à ConvertLab. La seule optimisation mobile valait l'investissement.",
+      "sarah": "Les améliorations SEO étaient visibles en quelques semaines. Nous sommes maintenant classés pour des mots-clés que nous ne pensions pas possibles.",
+      "michael": "L'optimisation de la vitesse a fait une énorme différence. Notre taux de rebond a chuté de 22% après la mise en œuvre de leurs recommandations."
+    }
+  },
+  "cta": {
+    "title": "Prêt à Convertir Plus de Visiteurs ?",
+    "description": "Obtenez votre page de destination personnalisée conçue et développée pour générer des résultats pour votre entreprise.",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "company": "Nom de l'Entreprise",
+      "button": "Obtenir Votre Devis Gratuit",
+      "note": "Aucune carte de crédit requise. Commencez en quelques minutes."
+    }
+  },
+  "performanceChart": {
+    "loadTime": "Temps de Chargement",
+    "bounceRate": "Taux de Rebond",
+    "conversions": "Conversions",
+    "pageViews": "Pages Vues",
+    "seoRank": "Classement SEO",
+    "before": "Avant",
+    "after": "Après"
+  },
+  "conversionChart": {
+    "jan": "Jan",
+    "feb": "Fév",
+    "mar": "Mar",
+    "apr": "Avr",
+    "may": "Mai",
+    "jun": "Juin",
+    "conversionRate": "Taux de Conversion"
+  },
+  "footer": {
+    "description": "Nous créons des pages de destination à conversion élevée axées sur la vitesse, le SEO et l'optimisation mobile.",
+    "services": "Services",
+    "landingPageDesign": "Conception de Pages de Destination",
+    "conversionOptimization": "Optimisation des Conversions",
+    "seoServices": "Services SEO",
+    "speedOptimization": "Optimisation de la Vitesse",
+    "company": "Entreprise",
+    "aboutUs": "À Propos",
+    "caseStudies": "Études de Cas",
+    "blog": "Blog",
+    "contact": "Contact",
+    "connect": "Connecter",
+    "rights": "Tous droits réservés."
+  }
+}
